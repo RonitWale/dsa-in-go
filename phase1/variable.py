@@ -34,3 +34,25 @@ print(name , "is", age, "years old")
 Multiline comment
 
 """
+
+
+
+
+"""
+Variables, Data Types Learning
+in Python
+"""
+
+my_name = "Ronit Roy"
+my_age = 26
+my_height = 5.10
+is_adult = my_age >= 18 
+
+print(type(my_name))
+print(type(my_age))
+print(type(my_height))
+print(type(is_adult), is_adult)
+
+# Unsupported operation between different data types in python
+# print(50+"10") => Not Allowed
+# print(50-10) => Allowed
