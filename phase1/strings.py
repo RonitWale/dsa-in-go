@@ -69,3 +69,37 @@ print("123".isdigit())
 
 csv_data = "apple, banana, guava"
 print(csv_data.split(","))
+
+print("".join(['apple', ' banana', ' guava']))
+
+
+
+
+"""
+
+fstring & docstring : 
+
+"""
+
+name = "Ronit"
+city = "Kolkata"
+# Bad way
+print("Hello everyone, meet", name, ".", name, "is from", city)
+
+# Good way
+print(f"Hello everyone, meet {name}. {name} is from {city}")
+
+
+# docstring: define the work of the function inside the function
+def my_func() :
+    '''
+    This is a function that returns  the half of sum of two variables
+    '''
+    a = 10
+    b = 3
+    sum = a + b
+    result = sum // 2
+    print(result)
+
+my_func()
+
