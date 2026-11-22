@@ -1,0 +1,13 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@10.7.0
+2 info using node@v20.14.0
+3 silly config:load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config:load:file:/Users/ronitroy/Documents/DeepDive/dsa-in-go/.npmrc
+5 silly config:load:file:/Users/ronitroy/.npmrc
+6 silly config:load:file:/usr/local/etc/npmrc
+7 verbose title npm config get prefix
+8 verbose argv "config" "get" "prefix"
+9 verbose logfile logs-max:10 dir:/Users/ronitroy/Documents/DeepDive/dsa-in-go/.npm-cache/_logs/2026-11-22T18_43_14_699Z-
+10 verbose logfile /Users/ronitroy/Documents/DeepDive/dsa-in-go/.npm-cache/_logs/2026-11-22T18_43_14_699Z-debug-0.log
+11 verbose exit 0
+12 info ok
