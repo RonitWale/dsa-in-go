@@ -37,3 +37,5 @@ info = ("Ronit", "26 yrs", "Kolkata")
 name, age , city = info
 
 print(name, age, city)
+
+
