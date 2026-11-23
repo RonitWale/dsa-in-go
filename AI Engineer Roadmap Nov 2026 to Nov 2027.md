@@ -68,13 +68,14 @@ Learn Python fast as your second language, and the math deep learning actually u
 - **June, inference:** the KV cache, quantization (int8/4-bit), batching, speculative decoding, serving with vLLM. Measure tokens per second and cost.
 - **July, RAG done properly:** embeddings, chunking, pgvector (you know Postgres), hybrid search, rerankers, query rewriting.
 - **July, evals:** golden test sets, retrieval metrics, LLM-as-judge and its failure modes. Hamel Husain's writing on evals is a good source.
+- **July, online experiments (1 to 2 weeks):** A/B testing basics, statistical significance and power, guardrail metrics. Offline evals tell you a change is better; an A/B test tells you users noticed. Job postings ask for this.
 - **Book alongside:** Chip Huyen's *AI Engineering* (O'Reilly).
 - **Ship:** a fine-tuned open model beating a prompted baseline on your own eval, plus a RAG app with an eval report.
 
 ### Phase 5: Agents and production (Aug to Sep 2027)
 
 - **August:** agent loops written by hand first, then one framework (LangGraph or similar). Tool design, MCP (Model Context Protocol), planning, memory, failure recovery.
-- **September:** production. Tracing (Langfuse or similar), guardrails, prompt caching, cost and latency budgets, retries, model routing between a self-hosted model and an API.
+- **September:** production. Tracing (Langfuse or similar), guardrails, prompt caching, cost and latency budgets, retries, model routing between a self-hosted model and an API. MLflow for tracking fine-tuning runs, eval results and model versions (common in job postings next to Langfuse).
 - **Ship:** the capstone (see Portfolio).
 
 ### Phase 6: Job search (Aug to Nov 2027)
@@ -136,6 +137,11 @@ Applications start in August 2027. The aim is an offer by November.
   - AI and ML system design: design a RAG system, an agent, an eval pipeline, a fine-tuning pipeline, an LLM serving setup
   - Take-home practice: build a small LLM feature in 4 to 6 hours
   - Deep-dive questions: explain attention, the KV cache, LoRA, quantization, and why a model hallucinates. Plus tradeoffs: RAG vs fine-tuning, cost vs quality, latency
+- **Target companies (from Bengaluru postings, Nov 2026; re-check careers pages in Aug 2027):**
+  - *Stretch:* Sarvam AI (Agent Engineer), Elastic (Agentic AI Engineer)
+  - *Best fit:* Brink AI Labs (Backend Engineer, Python + FastAPI + LLM infra), Ritually (Founding Applied AI Engineer)
+  - *Safety / bridge, Big 4:* EY GDS Consulting AIA (Gen AI Staff/Senior, Agentic AI Engineer; asks for LangGraph, MCP, SSE streaming), PwC GCC Advisory (GenAI and Agentic AI Engineer, Senior Associate), Deloitte Engineering as a Service (GenAI Engineering). Check KPMG directly.
+  - *Not the lane yet:* classical ML Engineer roles built on uplift modeling, causal inference, ranking and years of production ML (e.g. Uber One MLE). A possible move after 2028.
 - **Plan B:** if there's no offer by November, try an internal move into AI work at your current company, which also counts as experience.
 
 ## Rules against the restart loop
